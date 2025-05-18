@@ -345,12 +345,12 @@ networks:
 docker-compose up
 ```
 
-![Docker Compose UP](./Microservices/images/docker-compose-up.png)
+![Docker Compose UP](https://github.com/user-attachments/assets/2fe4dfd3-3a0f-4064-adeb-1908cc2f1401)
+
 
 ### 🔍 Check Docker Images & Containers
 
-![Docker Compose Images & Containers](./Microservices/images/docker-compose-image-container.png)
-
+![Docker Compose Images & Containers]![image](https://github.com/user-attachments/assets/4fcc4f35-2c66-43d3-b3c8-a0c20105dc5c)
 ---
 
 ✅ Once all containers are running, access the respective endpoints to verify each service is functioning correctly.
