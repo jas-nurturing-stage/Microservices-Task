@@ -75,7 +75,8 @@ Build the Docker image:
 docker image build -t user-service .
 ```
 
-![User Service Build](./Microservices/images/user-service-build.png)
+![user service](https://github.com/user-attachments/assets/b20afa6a-5bd5-4735-a733-ce37459ae57d)
+
 
 Run the container:
 
@@ -94,7 +95,8 @@ docker container run -d --name user-service -p 3000:3000 --network microservice 
 
     Or open in browser: [http://localhost:3000/users](http://localhost:3000/users)
 
-![User Service Result](./Microservices/images/user-service-result.png)
+![User service Result](https://github.com/user-attachments/assets/9347a9c0-1cc3-44df-ae0d-8f3b61fb67e5)
+
 
 ---
 
@@ -125,7 +127,8 @@ Build the Docker image:
 docker image build -t product-service .
 ```
 
-![Product Service Build](./Microservices/images/product-service-build.png)
+![product service build](https://github.com/user-attachments/assets/70f46e4a-4154-441a-bc85-99cfbe1770f8)
+
 
 Run the container:
 
@@ -144,7 +147,8 @@ docker container run -d --name product-service -p 3001:3001 --network microservi
 
     Or open in browser: [http://localhost:3001/products](http://localhost:3001/products)
 
-![Product Service Result](./Microservices/images/product-service-result.png)
+![product service local host image](https://github.com/user-attachments/assets/650499eb-a55f-4d0d-ba7d-70e64aedd029)
+
 
 ---
 
@@ -175,7 +179,8 @@ Build the Docker image:
 docker image build -t order-service .
 ```
 
-![Order Service Build](./Microservices/images/order-service-build.png)
+![order service build](https://github.com/user-attachments/assets/8d07c2a2-04f8-454e-9e79-c287526ee1cf)
+
 
 Run the container:
 
@@ -194,7 +199,8 @@ docker container run -d --name order-service -p 3002:3002 --network microservice
 
     Or open in browser: [http://localhost:3002/orders](http://localhost:3002/orders)
 
-![Order Service Result](./Microservices/images/order-service-result.png)
+![orderservice localhost](https://github.com/user-attachments/assets/083c46d7-30ce-4314-b491-5a2d46b7fb86)
+
 
 ---
 
@@ -225,7 +231,8 @@ Build the Docker image:
 docker image build -t gateway-service .
 ```
 
-![Gateway Service Build](./Microservices/images/gateway-service-build.png)
+![gatewayservice build](https://github.com/user-attachments/assets/80a7511f-d07b-424d-a10b-0644eed73aae)
+
 
 Run the container:
 
@@ -364,6 +371,6 @@ This project is released under the MIT License, granting you the freedom to:
 
 ---
 
-<div align="center">
+<div align="right">
   <p>Built with ❤️ by Jasmine saheb</p>
 </div>
